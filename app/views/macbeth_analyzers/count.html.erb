@@ -1,0 +1,9 @@
+<div id="sorted-speakers-page">
+<h1>All characters sorted by lines spoken.</h1>
+	<% @sorted_speakers.each do |speaker| %>
+	<div class="speaker">
+		<p class="name"><%= speaker[0].titleize %></p>
+		<p class="count"><%= speaker[1] %></p>
+	</div>
+	<% end %>
+</div>

@@ -1,0 +1,21 @@
+#sorted-speakers-page{
+	h1{
+		font-family: sans-serif;
+		text-align: center;
+	}
+	.speaker{
+		background-color: #ffffff;
+		padding: 0 calc(50% - 150px);
+		p{
+			width: 148px;
+			display: inline-block;
+			font-family: sans-serif;
+			&.count{
+				text-align: right;
+			}
+		}
+		&:nth-of-type(even){
+			background-color: #FAFAFF;
+		}
+	}
+}

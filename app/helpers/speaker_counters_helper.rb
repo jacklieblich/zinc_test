@@ -1,0 +1,2 @@
+module SpeakerCountersHelper
+end

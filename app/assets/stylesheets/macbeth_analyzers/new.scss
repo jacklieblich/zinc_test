@@ -1,0 +1,16 @@
+#url-form-page{
+	margin-top: 200px;
+	h1{
+		font-family: sans-serif;
+		text-align: center;
+	}
+	input{
+		margin: 0 auto;
+		display: block;
+		&#url{
+			width: 300px;
+			border-radius: 4px;
+			margin-bottom: 10px;
+		}
+	}
+}

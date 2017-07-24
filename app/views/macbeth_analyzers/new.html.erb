@@ -1,0 +1,7 @@
+<div id="url-form-page">
+<h1>Enter XML Link Here:</h1>
+	<%= form_tag("/count") do %>
+		<%= url_field_tag "url" %>
+		<%= submit_tag "submit" %>
+	<% end %>
+</div>
